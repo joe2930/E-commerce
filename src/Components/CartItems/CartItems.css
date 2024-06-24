@@ -1,0 +1,130 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+.cartitems
+{
+    margin: 100px 170px;
+}
+.cartitems hr
+{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+    width: 100%;
+}
+.format-main
+{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.format
+{
+    font-size: 17px;
+    font-weight: 500;
+}
+.icon
+{
+    height: 72px;
+}
+.remove-icon
+{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.price
+{
+    font-size: 21px;
+}
+.quantity
+{
+    width: 64px;
+    height: 50px;
+    font-size: 21px;
+    border: 2px solid #ebebeb;
+    background-color: white;
+}
+.down
+{
+    display: flex;
+    margin: 100px 0px;
+}
+.down p
+{
+    font-size: 20px;
+}
+.down h3{
+    font-size: 24px;
+}
+.total
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.total-items
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.total button
+{
+    width: 240px;
+    height: 60px;
+    background-color: #ff5a5a;
+    border-radius:4px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+.promo
+{
+    flex: 1;
+    font-size: 22px;
+}
+.promo p{
+    color: #555;
+}
+.promo-box 
+{
+    width: 504px;
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 20px;
+    background-color: white;
+}
+.promo-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: #f9f4f4;
+    width: 330px;
+    height: 50px;
+    font-size: 20px;
+}
+.promo-box button
+{
+    width: 170px;
+    height: 50px;
+    color: white;
+    background: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+

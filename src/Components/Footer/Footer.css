@@ -1,0 +1,51 @@
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    margin-top: 140px;
+}
+.footer-logo
+{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.footer-links
+{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+.footer-links li
+{
+    cursor: pointer;
+}
+.footer-social-icon
+{
+   
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.footer-social-icon img
+{
+    padding: 5px;
+    border: 1px solid rgb(169, 169, 169);
+    background-color: rgb(245, 245, 245);
+}
+ hr{
+    width: 750px;
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+.cpyrit p
+{
+    font-size: 30px;
+    padding: 6px;
+}
